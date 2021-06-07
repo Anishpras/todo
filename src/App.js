@@ -1,13 +1,11 @@
 import "./App.css";
-import DrawingArea from "./DrawingArea";
+import TodoList from "./components/TodoList";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
-      <h1> Drawing Area</h1>
-      <div className="App drawing-area">
-        <DrawingArea />
-      </div>
+      <TodoList />
     </>
   );
 }
